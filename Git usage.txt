@@ -1,0 +1,19 @@
+Working with remote branch GIT
+ 
+git clone https://git-codecommit.us-east-1.amazonaws.com/v1/repos/Kare4uWeb
+git clone https://git-codecommit.us-east-1.amazonaws.com/v1/repos/HealthPro
+git checkout healthpro-lab
+git push origin healthpro-lab
+git branch --set-upstream-to origin/healthpro-lab
+git branch --unset-upstream - To unset upstream
+git pull
+git commit -m "commit message"
+git push --set-upstream origin healthpro-lab
+
+git archive --format zip --output C:/Users/k4u085/Desktop/GITChangesMerge/zipfile.zip c28f5a66a7bd17dac498c816a5cf466d1ac3497a - To export changes
+
+
+To create a branch
+git branch - List all branches
+git branch <branch-name>
+git branch -d <branch-name>
